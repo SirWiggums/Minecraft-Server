@@ -1,0 +1,108 @@
+###################################################[DRUGS v6.1]########################################################
+
+# DISCLAIMER: EDIT AT YOUR OWN RISK! IMPROPER USE OF CONFIG MAY RESULT IN CRASHES.
+ # If after editing the config you experience issues, delete the file and restart the server...
+
+# --------------------------------------------[USAGE RECIPE TOGGLE]----------------------------------------------------
+
+# Allows administrators to toggle usage of individual drugs.
+
+# Toggle message sent to players informing them the drugs they are attempting to take are disabled.
+drugMessage:
+  enabled: true
+
+NarcanUse:
+  enabled: true
+CocaineUse:
+  enabled: true
+HeroinUse:
+  enabled: true
+AdderallUse:
+  enabled: true
+SteroidsUse:
+  enabled: true
+HennessyUse:
+  enabled: true
+KetamineUse:
+  enabled: true
+MarijuanaUse:
+  enabled: true
+LSDUse:
+  enabled: true
+EcstasyUse:
+  enabled: true
+AyahuascaUse:
+  enabled: true
+ShroomsUse:
+  enabled: true
+
+# --------------------------------------------[DRUG RECIPE TOGGLE]-----------------------------------------------------
+
+# Allows administrators to toggle individual crafting recipes.
+
+# Toggle all recipes server-wide for all players.
+allRecipes:
+  enabled: true
+
+# Toggle individual recipes server-wide for all players.
+NarcanRecipe:
+  enabled: true
+CocaineRecipe:
+  enabled: true
+HeroinRecipe:
+  enabled: true
+AdderallRecipe:
+  enabled: true
+SteroidsRecipe:
+  enabled: true
+HennessyRecipe:
+  enabled: true
+KetamineRecipe:
+  enabled: true
+MarijuanaRecipe:
+  enabled: true
+LSDRecipe:
+  enabled: true
+EcstasyRecipe:
+  enabled: true
+AyahuascaRecipe:
+  enabled: true
+ShroomsRecipe:
+  enabled: true
+
+# -------------------------------------------[TRANSLATION SECTION]-----------------------------------------------------
+
+# It is recommended that you DO NOT edit the following section. It is intended for language translation only.
+  # Make sure ALL FIELDS are filled, or plugin may not function properly.
+  # DISCLAIMER: Edits to this section may result in formatting issues.
+  # '§' is the symbol to denote color codes in messages.
+
+#DrugCommandExecutor
+verifyPermission: "§cBạn không có các quyền cần thiết để chạy lệnh này."
+verifyDrug: "§cVui lòng chọn một loại thuốc hợp lệ."
+announceDrug: "§2You spawned "
+selectDrug: "§c§lVui lòng chọn một trong các loại thuốc sau:"
+usageMessage: "§2Usage: §6/drugs <drug>§2 to spawn."
+
+#DrugsItems
+narcanMessage: "§2Loại bỏ tất cả §6hiệu ứng"
+messageStartPsych: "§2Cấp §6" # [effect name]
+messageEndPsych: "§2 trong hai phút."
+useInstructionPsych: "§2SHIFT CLICK để sử dụng."
+
+#NarcanListner
+milkMessage: "§cBạn phải sử dụng Narcan để hủy bỏ tác dụng của thuốc..."
+consumeNarcan: "§2Tâm trí của bạn cảm thấy rõ ràng bây giờ..."
+
+#PsychoactiveDrugListener
+verifyUsage: "§cBạn phải SHIFT + RIGHT-CLICK để tiêu thụ thuốc..."
+drugPermission: "§cBạn không có đủ giấy phép cần thiết để dùng thuốc."
+drugDisabled: "§cThuốc này bị vô hiệu hóa."
+consumeStart: "§2§lBạn đã lấy §6§l" # [drug name]
+consumeMiddle: " §2§lvà " # [effect message]
+consumeEnd: " trong §6§l2 phút§2§l!"
+passingMessage: "§cTôi cảm thấy như bất tỉnh..."
+overdoseMessage: "§cBạn đã dùng quá liều và chết...:))))))))"
+dizzyMessage: "§c§oUh oh, tôi cảm thấy không tốt lắm..."
+withdrawalMessageStart: "§2§lBạn đang đau khổ §6§lwithdrawal §2§lvà " # [withdrawal effect message]
+withdrawalMessageEnd: " §2§lTrong §6§l30 seconds§2§l..."

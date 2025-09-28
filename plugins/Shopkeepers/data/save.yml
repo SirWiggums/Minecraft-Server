@@ -1,0 +1,658 @@
+# This file is not intended to be manually modified! If you want to manually edit this file anyways, ensure that the server is not running currently and that you have prepared a backup of this file.
+
+data-version: 3|2|3218
+'2':
+  uniqueId: 9104049b-bd31-4d77-a4bd-8ce396d28d15
+  world: world
+  x: 448
+  y: 95
+  z: -454
+  yaw: 5.774994
+  type: admin
+  name: '&4Giao dịch chất cấm'
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: PLAINS
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: GRASS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Hạt
+            giống coca"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Cây
+            được trồng làm cây trồng tiền mặt ở Tây Bắc Argentina,"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Bolivia,
+            Colombia, Ecuador và Peru, ngay cả trong các khu vực"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"nơi
+            canh tác của nó là bất hợp pháp. Có một số báo cáo"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"rằng
+            cây đang được trồng ở miền nam Mexico"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"như
+            một giải pháp thay thế cho việc buôn lậu cocaine sản phẩm giải trí của
+            nó."}],"text":""}'
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: DIAMOND
+        amount: 64
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: DIAMOND
+        amount: 64
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: FERN
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Hạt
+            giong Marijuana"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            Cần sa là một chi thực vật có hoa"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            trong họ Cannabaceae. Số lượng loài trong "}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            một chi đang bị tranh cãi. Ba loài có thể được công nhận:"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            Cannabis sativa, Cannabis indica, và Cannabis ruderalis;"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            C. ruderalis có thể được bao gồm trong C. sativa."}],"text":""}'
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: DIAMOND
+        amount: 64
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: DIAMOND
+        amount: 64
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: MILK_BUCKET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Narcan"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Loại
+            bỏ tất cả "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"hiệu
+            ứng"}],"text":""}'
+          enchants:
+            Drug: 1
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: MILK_BUCKET
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: GOLDEN_APPLE
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: SUGAR
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Cocaine"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Cấp
+            "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"speed"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"
+            trong hai phút."}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"SHIFT
+            CLICK để sử dụng."}],"text":""}'
+          enchants:
+            Drug: 1
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: KELP
+        amount: 18
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Lá
+            coca"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            Coca là bất kỳ cây nào trong số bốn loại cây được trồng trong gia đình"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            Erythroxylaceae, có nguồn gốc ở miền tây Nam Mỹ. Coca được biết đến với"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            alkaloid thần kinh của nó, cocaine."}],"text":""}'
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: GREEN_DYE
+        amount: 18
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Marijuana"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            Cần sa, còn được gọi là cần sa trong số các tên khác,"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            là một loại thuốc tâm thần từ cây Cần sa"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            được sử dụng chủ yếu cho mục đích y tế hoặc giải trí."}],"text":""}'
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: PAPER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"LSD"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Cấp
+            "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"night
+            vision"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"
+            trong hai phút."}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"SHIFT
+            CLICK để sử dụng."}],"text":""}'
+          enchants:
+            Drug: 1
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: KELP
+        amount: 18
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Lá
+            coca"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            Coca là bất kỳ cây nào trong số bốn loại cây được trồng trong gia đình"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            Erythroxylaceae, có nguồn gốc ở miền tây Nam Mỹ. Coca được biết đến với"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            alkaloid thần kinh của nó, cocaine."}],"text":""}'
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: GREEN_DYE
+        amount: 19
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Marijuana"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            Cần sa, còn được gọi là cần sa trong số các tên khác,"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            là một loại thuốc tâm thần từ cây Cần sa"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            được sử dụng chủ yếu cho mục đích y tế hoặc giải trí."}],"text":""}'
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: PRISMARINE_CRYSTALS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Steroids"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Cấp
+            "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"strength"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"
+            trong hai phút."}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"SHIFT
+            CLICK để sử dụng."}],"text":""}'
+          enchants:
+            Drug: 1
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: GREEN_DYE
+        amount: 46
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Marijuana"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            Cần sa, còn được gọi là cần sa trong số các tên khác,"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            là một loại thuốc tâm thần từ cây Cần sa"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            được sử dụng chủ yếu cho mục đích y tế hoặc giải trí."}],"text":""}'
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: KELP
+        amount: 46
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Lá
+            coca"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            Coca là bất kỳ cây nào trong số bốn loại cây được trồng trong gia đình"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            Erythroxylaceae, có nguồn gốc ở miền tây Nam Mỹ. Coca được biết đến với"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            alkaloid thần kinh của nó, cocaine."}],"text":""}'
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: WHITE_DYE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Heroin"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Cấp
+            "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"regeneration"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"
+            trong hai phút."}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"SHIFT
+            CLICK để sử dụng."}],"text":""}'
+          enchants:
+            Drug: 1
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: KELP
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Lá
+            coca"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            Coca là bất kỳ cây nào trong số bốn loại cây được trồng trong gia đình"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            Erythroxylaceae, có nguồn gốc ở miền tây Nam Mỹ. Coca được biết đến với"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            alkaloid thần kinh của nó, cocaine."}],"text":""}'
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: GREEN_DYE
+        amount: 31
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Marijuana"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            Cần sa, còn được gọi là cần sa trong số các tên khác,"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            là một loại thuốc tâm thần từ cây Cần sa"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            được sử dụng chủ yếu cho mục đích y tế hoặc giải trí."}],"text":""}'
+    '8':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: PHANTOM_MEMBRANE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Ecstasy"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Cấp
+            "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"levitation"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"
+            trong hai phút."}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"SHIFT
+            CLICK để sử dụng."}],"text":""}'
+          enchants:
+            Drug: 1
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: GREEN_DYE
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Marijuana"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            Cần sa, còn được gọi là cần sa trong số các tên khác,"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            là một loại thuốc tâm thần từ cây Cần sa"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            được sử dụng chủ yếu cho mục đích y tế hoặc giải trí."}],"text":""}'
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: KELP
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Lá
+            coca"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            Coca là bất kỳ cây nào trong số bốn loại cây được trồng trong gia đình"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            Erythroxylaceae, có nguồn gốc ở miền tây Nam Mỹ. Coca được biết đến với"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            alkaloid thần kinh của nó, cocaine."}],"text":""}'
+    '9':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: GOLD_NUGGET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Adderall"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Cấp
+            "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"haste"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"
+            trong hai phút."}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"SHIFT
+            CLICK để sử dụng."}],"text":""}'
+          enchants:
+            Drug: 1
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: KELP
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Lá
+            coca"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            Coca là bất kỳ cây nào trong số bốn loại cây được trồng trong gia đình"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            Erythroxylaceae, có nguồn gốc ở miền tây Nam Mỹ. Coca được biết đến với"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            alkaloid thần kinh của nó, cocaine."}],"text":""}'
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: GREEN_DYE
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Marijuana"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            Cần sa, còn được gọi là cần sa trong số các tên khác,"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            là một loại thuốc tâm thần từ cây Cần sa"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            được sử dụng chủ yếu cho mục đích y tế hoặc giải trí."}],"text":""}'
+    '10':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: LIGHT_GRAY_DYE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Ketamine"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Cấp
+            "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"jump
+            boost"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"
+            trong hai phút."}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"SHIFT
+            CLICK để sử dụng."}],"text":""}'
+          enchants:
+            Drug: 1
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: KELP
+        amount: 37
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Lá
+            coca"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            Coca là bất kỳ cây nào trong số bốn loại cây được trồng trong gia đình"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            Erythroxylaceae, có nguồn gốc ở miền tây Nam Mỹ. Coca được biết đến với"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            alkaloid thần kinh của nó, cocaine."}],"text":""}'
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: GREEN_DYE
+        amount: 37
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Marijuana"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            Cần sa, còn được gọi là cần sa trong số các tên khác,"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            là một loại thuốc tâm thần từ cây Cần sa"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            được sử dụng chủ yếu cho mục đích y tế hoặc giải trí."}],"text":""}'
+    '11':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: HONEY_BOTTLE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Hennessy"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Cấp
+            "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"luck"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"
+            trong hai phút."}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"SHIFT
+            CLICK để sử dụng."}],"text":""}'
+          enchants:
+            Drug: 1
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: GREEN_DYE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Marijuana"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            Cần sa, còn được gọi là cần sa trong số các tên khác,"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            là một loại thuốc tâm thần từ cây Cần sa"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            được sử dụng chủ yếu cho mục đích y tế hoặc giải trí."}],"text":""}'
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: KELP
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Lá
+            coca"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            Coca là bất kỳ cây nào trong số bốn loại cây được trồng trong gia đình"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            Erythroxylaceae, có nguồn gốc ở miền tây Nam Mỹ. Coca được biết đến với"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            alkaloid thần kinh của nó, cocaine."}],"text":""}'
+    '12':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: GREEN_DYE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Marijuana"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Cấp
+            "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"resistance"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"
+            trong hai phút."}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"SHIFT
+            CLICK để sử dụng."}],"text":""}'
+          enchants:
+            Drug: 1
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: GREEN_DYE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Marijuana"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            Cần sa, còn được gọi là cần sa trong số các tên khác,"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            là một loại thuốc tâm thần từ cây Cần sa"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            được sử dụng chủ yếu cho mục đích y tế hoặc giải trí."}],"text":""}'
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: GREEN_DYE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Marijuana"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            Cần sa, còn được gọi là cần sa trong số các tên khác,"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            là một loại thuốc tâm thần từ cây Cần sa"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            được sử dụng chủ yếu cho mục đích y tế hoặc giải trí."}],"text":""}'
+    '13':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: BEETROOT_SOUP
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Ayahuasca"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Cấp
+            "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"invisibility"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"
+            trong hai phút."}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"SHIFT
+            CLICK để sử dụng."}],"text":""}'
+          enchants:
+            Drug: 1
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: KELP
+        amount: 60
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Lá
+            coca"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            Coca là bất kỳ cây nào trong số bốn loại cây được trồng trong gia đình"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            Erythroxylaceae, có nguồn gốc ở miền tây Nam Mỹ. Coca được biết đến với"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            alkaloid thần kinh của nó, cocaine."}],"text":""}'
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: GREEN_DYE
+        amount: 60
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Marijuana"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            Cần sa, còn được gọi là cần sa trong số các tên khác,"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            là một loại thuốc tâm thần từ cây Cần sa"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            được sử dụng chủ yếu cho mục đích y tế hoặc giải trí."}],"text":""}'
+    '14':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: RED_MUSHROOM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Shrooms"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Cấp
+            "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"health
+            boost"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"
+            trong hai phút."}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"SHIFT
+            CLICK để sử dụng."}],"text":""}'
+          enchants:
+            Drug: 1
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: GREEN_DYE
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Marijuana"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            Cần sa, còn được gọi là cần sa trong số các tên khác,"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            là một loại thuốc tâm thần từ cây Cần sa"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"
+            được sử dụng chủ yếu cho mục đích y tế hoặc giải trí."}],"text":""}'
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: KELP
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Lá
+            coca"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            Coca là bất kỳ cây nào trong số bốn loại cây được trồng trong gia đình"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            Erythroxylaceae, có nguồn gốc ở miền tây Nam Mỹ. Coca được biết đến với"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            alkaloid thần kinh của nó, cocaine."}],"text":""}'
+  snapshots: []

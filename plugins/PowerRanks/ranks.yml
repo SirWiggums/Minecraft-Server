@@ -1,0 +1,52 @@
+Moderator:
+  permissions: []
+  inheritances: []
+  weight: 50
+  default: false
+  namecolor: ''
+  suffix: ''
+  chatcolor: ''
+  buyCost: 0.0
+  prefix: '#9d1dffM#a51eefO#ae1fdfD#b720d0E#bf21c0R#c822b0A#d123a1T#d92491O#e22581R'
+  buyDescription: ''
+  buyableRanks: []
+  buyCommand: ''
+Owner:
+  permissions: []
+  inheritances: []
+  weight: 100
+  default: false
+  namecolor: '&4'
+  suffix: ''
+  chatcolor: '&4'
+  buyCost: 0.0
+  prefix: '&0Cái bang'
+  buyDescription: ''
+  buyableRanks: []
+  buyCommand: ''
+Admin:
+  permissions: []
+  inheritances: []
+  weight: 75
+  default: false
+  namecolor: ''
+  suffix: ''
+  chatcolor: ''
+  buyCost: 0.0
+  prefix: '#ffff00A#fbcc00D#f79900M#f36600I#ef3300N'
+  buyDescription: ''
+  buyableRanks: []
+  buyCommand: ''
+Member:
+  permissions: []
+  inheritances: []
+  weight: 0
+  default: true
+  namecolor: ''
+  suffix: ''
+  chatcolor: '&6'
+  buyCost: 0.0
+  prefix: '&5Nô lệ'
+  buyDescription: ''
+  buyableRanks: []
+  buyCommand: ''

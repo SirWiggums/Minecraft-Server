@@ -1,0 +1,19 @@
+ChessBoards:
+  AnXin:
+    NorthWest:
+      ==: org.bukkit.Location
+      world: world
+      x: 510.0
+      y: 63.0
+      z: -641.0
+      pitch: 0.0
+      yaw: 0.0
+    SouthEast:
+      ==: org.bukkit.Location
+      world: world
+      x: 517.0
+      y: 63.0
+      z: -634.0
+      pitch: 0.0
+      yaw: 0.0
+    Flipped: true

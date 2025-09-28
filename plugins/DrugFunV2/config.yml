@@ -1,0 +1,305 @@
+#DRUGFUN V2 by @realFirstix @www.spigotmc.org#
+#WIKI FOR HELP: https://github.com/realFirstix/DrugFun/wiki #
+
+commandSettings:
+  help:
+    - '&c[&eDrug&fFun&c]'
+    - '&c/df -> shows current version of plugin and credits'
+    - '&e/df help -> opens this text'
+    - '&c/df menu -> opens menu with every item within this plugin, clicking an item will give you the item to your inventory'
+    - '&e/df btcbal -> shows your Bitcoin balance'
+    - '&c/df give [player] [itemname] [amount] -> gives specified player a specified amount of a specified item from this plugin'
+  give:
+    errorMessage: '&eCorrect format is /df give [player] [itemname] [amount]'
+    #use {SENDER} as a placeholder for senders username, {RECEIVER} for receivers username, {ITEM} for item and {AMOUNT} for amount#
+    giveMessageSender: '&ex{AMOUNT}&c of &e{ITEM}&c was given to &e{RECEIVER}'
+    giveMessageReceiver: '&cYou got &ex{AMOUNT}&c of &e{ITEM}&c from &e{SENDER}'
+
+noPermissionText: '&cNo permission!'
+
+
+#This is the time interval for which the data files save information. keeping this value high will ensure that your server will lag less. be careful because if your server crashes data might not be saved.#
+#this value is in minutes#
+saveInterval: 20.0
+
+PluginPrefix:
+  prefix: '&e[&cDrug&4Fun&e] '
+  enabled: true
+  
+ItemMenu:
+  MenuTitle: '&eDrugFun Item Menu'
+  
+Drugs:
+  Heroin:
+    #Enable dropping of opium poppies in the wild from poppy blocks?#
+    canDropInWild: false
+    #If true, what is the probability that an opium poppy item will drop from a normal poppy block? (2 d.p)#
+    wildDropProbability: 0.15
+    DisplayName: '&8Heroin'
+    Material: GUNPOWDER
+    Lore:
+      - '&f Heroin là một loại thuốc opioid được làm từ morphin, a'
+      - '&f chất tự nhiên lấy từ vỏ hạt của'
+      - '&f các loại cây thuốc phiện khác nhau được trồng ở Đông Nam và'
+      - '&f Tây Nam Á, Mexico và Colombia.'
+    consumptionText: '&eYou have consumed Heroin!'
+    #in ticks (1s = 20 ticks)#
+    consumptionCooldown: 80
+    #to add potion effects of your choice, simply add another entry like shown below.#
+    #duration is in ticks (1s = 20 ticks)#
+    PotionEffects:
+      INCREASE_DAMAGE:
+        Duration: 200
+        Level: 3
+      BLINDESS:
+        Duration: 300
+        Level: 2
+    Recipe:
+      - ''
+      - 'OPIUM'
+      - ''
+      - 'OPIUM'
+      - ''
+      - 'OPIUM'
+      - ''
+      - 'OPIUM'
+      - ''
+    OpiumPoppy:
+      DisplayName: '&8Opium Poppy'
+      Lore:
+        - '&8Papaver somniferum, commonly known as the opium poppy or'
+        - '&8breadseed poppy, is a species of flowering plant in the family Papaveraceae.'
+        - '&8It is the species of plant from which both opium and poppy seeds are derived'
+        - '&8and is also a valuable ornamental plant, grown in gardens.'
+      plantMessage: '&eYou have placed an opium poppy!'
+      harvestMessage: '&eYou have harvested an opium poppy'
+      earlyharvestMessage: '&eThat opium poppy did not grow fully!'
+      #in minutes#
+      growthTime: 55
+      #amount of opium poppy seeds that drop#
+      harvestAmount: 3
+      #probability of an opium poppy item dropping whilst harvesting opium poppy seed pods#
+      harvestProbability: 0.6 
+    OpiumPoppySeedPod:
+      DisplayName: '&8Opium Poppy Seed Pod'
+      Material: LIME_DYE
+      Lore:
+        - '&8 hạt oppy là hạt có dầu thu được từ cây thuốc phiện'
+        - '&8 (Papaver somniferum). Những hạt nhỏ, hình quả thận đã được thu hoạch từ khô'
+        - '&8 vỏ hạt giống của các nền văn minh khác nhau trong hàng ngàn năm.'
+    Opium:
+      DisplayName: '&8Opium'
+      Material: PINK_DYE
+      Lore:
+        - '&8 Thuốc phiện là mủ khô thu được từ hạt giống'
+        - '&8 viên thuốc phiện Papaver somniferum.'
+      #in ticks (1s = 20 ticks)#
+      CookingTime: 300
+      #amount of opium produced from smelting#
+      amtProduced: 2
+  Cocaine:
+    #Enable dropping of coca plants in the wild from tall grass blocks?#
+    canDropInWild: false
+    #If true, what is the probability that a coca plant item will drop from a normal tall grass block? (2 d.p)#
+    wildDropProbability: 0.15
+    DisplayName: '&fCocaine'
+    Material: SUGAR
+    Lore:
+      - '&fCocaine, còn được gọi là than cốc, là một chất kích thích mạnh nhất'
+      - '&thường xuyên được sử dụng như một loại thuốc giải trí Nó thường được khịt mũi, hít vào như khói,'
+      - '&f hoặc hòa tan và tiêm vào tĩnh mạch. Hiệu ứng tinh thần có thể bao gồm một'
+      - '&cảm giác hạnh phúc, mất liên lạc với thực tế hoặc kích động.'
+    consumptionText: '&eBạn đã tiêu thụ Cocaine!'
+    #in ticks (1s = 20 ticks)#
+    consumptionCooldown: 50
+    #to add potion effects of your choice, simply add another entry like shown below.#
+    #duration is in ticks (1s = 20 ticks)#
+    PotionEffects:
+      SPEED:
+        Duration: 100
+        Level: 2
+      FAST_DIGGING:
+        Duration: 120
+        Level: 1
+    Recipe:
+      - ''
+      - 'COCA_LEAF'
+      - ''
+      - 'COCA_LEAF'
+      - 'COCA_LEAF'
+      - 'COCA_LEAF'
+      - ''
+      - 'COCA_LEAF'
+      - ''
+    CocaPlant:
+      DisplayName: '&fHạt giống coca'
+      Lore:
+        - '&fCây được trồng làm cây trồng tiền mặt ở Tây Bắc Argentina,'
+        - '&fBolivia, Colombia, Ecuador và Peru, ngay cả trong các khu vực'
+        - '&fnơi canh tác của nó là bất hợp pháp. Có một số báo cáo'
+        - '&frằng cây đang được trồng ở miền nam Mexico'
+        - '&fnhư một giải pháp thay thế cho việc buôn lậu cocaine sản phẩm giải trí của nó.'
+      plantMessage: '&eBạn đã đặt một cây coca!'
+      harvestMessage: '&eBạn đã thu hoạch một cây coca!'
+      earlyharvestMessage: '&eCây coca đó đã không phát triển đầy đủ!'
+      #in minutes#
+      growthTime: 55
+      #amount of coca leaves that drop#
+      harvestAmount: 5
+      #probability of a coca plant item dropping whilst harvesting coca leaves#
+      harvestProbability: 0.6
+    CocaLeaf:
+      DisplayName: '&fLá coca'
+      Lore:
+        - '&f Coca là bất kỳ cây nào trong số bốn loại cây được trồng trong gia đình'
+        - '&f Erythroxylaceae, có nguồn gốc ở miền tây Nam Mỹ. Coca được biết đến với'
+        - '&f alkaloid thần kinh của nó, cocaine.'
+  Marijuana:
+    #Enable dropping of marijuana plants in the wild from large fern blocks?#
+    canDropInWild: false
+    #If true, what is the probability that a marijuana plant item will drop from a normal large fern block? (2 d.p)#
+    wildDropProbability: 0.15
+    DisplayName: '&aMarijuana'
+    Material: GREEN_DYE
+    Lore:
+      - '&a Cần sa, còn được gọi là cần sa trong số các tên khác,'
+      - '&a là một loại thuốc tâm thần từ cây Cần sa'
+      - '&a được sử dụng chủ yếu cho mục đích y tế hoặc giải trí.'
+    consumptionText: '&2You have consumed Marijuana!'
+    #in ticks (1s = 20 ticks)#
+    consumptionCooldown: 50
+    #to add potion effects of your choice, simply add another entry like shown below.#
+    #duration is in ticks (1s = 20 ticks)#
+    PotionEffects:
+      LEVITATION:
+        Duration: 40
+        Level: 2
+      SLOWNESS:
+        Duration: 120
+        Level: 2
+    MarijuanaPlant:
+      DisplayName: '&aHạt giong Marijuana'
+      Lore:
+        - '&a Cần sa là một chi thực vật có hoa'
+        - '&a trong họ Cannabaceae. Số lượng loài trong '
+        - '&a một chi đang bị tranh cãi. Ba loài có thể được công nhận:'
+        - '&a Cannabis sativa, Cannabis indica, và Cannabis ruderalis;'
+        - '&a C. ruderalis có thể được bao gồm trong C. sativa.'
+      plantMessage: '&eBạn đã đặt một cây cần sa!'
+      harvestMessage: '&eBạn đã thu hoạch một cây cần sa!'
+      earlyharvestMessage: '&eCây cần sa đó đã không phát triển đầy đủ!'
+      #in minutes#
+      growthTime: 55
+      #amount of coca leaves that drop#
+      harvestAmount: 10
+      #probability of a marijuana plant item dropping whilst harvesting marijuana plant#
+      harvestProbability: 0.3
+    Bong:
+      DisplayName: '&cBong'
+      EmptyBongLore:
+        - '&d{&5EMPTY&d}'
+        - '&eUse this to smoke Marijuana'
+      FullBongLore:
+        - '&d{&5FULL&d}'
+        - '&eUse this to smoke Marijuana'
+      Recipe:
+        - ''
+        - 'GLASS'
+        - ''
+        - ''
+        - 'GLASS'
+        - ''
+        - 'GLASS'
+        - 'GLASS'
+        - 'GLASS'
+      
+      
+#Message sent to player when they right click a plant, use {PERCENT} as a placeholder for the % of completion of growth#
+growthMessage: '&eThu Hoạch {PERCENT}% / 100% !'
+
+Computer:
+  WebsiteGUIItems:
+    Shop:
+      Material: LEGACY_RAILS
+      DisplayName: '&cSilk &3Road'
+      Lore:
+        - '&eThe most infamous drug'
+        - '&ewebsite on the dark web..'
+    CurrencyConverter:
+      Material: GOLD_INGOT
+      DisplayName: '&3Convert Currencies'
+      Lore:
+        - '&eConvert your BTC to other'
+        - '&ecurrencies and vice-versa!'
+  Recipe:
+    - 'IRON_INGOT'
+    - 'IRON_INGOT'
+    - 'IRON_INGOT'
+    - 'DIAMOND'
+    - 'GLASS'
+    - 'DIAMOND'
+    - 'GOLD_INGOT'
+    - 'GOLD_INGOT'
+    - 'GOLD_INGOT'
+  DisplayName: '&eComputer'
+  Lore:
+    - '&eUse this to make'
+    - '&esome illegal purchases..'
+  StartMenuTitle: '&eWhat do you want to access?'
+  WebsiteName: '&cSilk &3Road'
+  CurrencyConversionTitle: '&eConvert your currencies'
+  #Setting a value as 0 will disable the item from being sold/bought.#
+  #This currency is BTC/Bitcoin. You are able to convert to your desired currency afterwards.#
+  Prices:
+    Sell:
+      COCAINE: 15.0
+      COCAPLANT: 2.5
+      COCALEAF: 1.0
+      MARIJUANA: 8.0
+      MARIJUANAPLANT: 2.5
+      BONG: 0.05
+      HEROIN: 12.0
+      OPIUM: 5.0
+      OPIUMPOPPY: 2.5
+      OPIUMPOPPYSEEDPOD: 0.25
+    Buy:
+      COCAINE: 40.0
+      COCAPLANT: 7.5
+      COCALEAF: 5.0
+      MARIJUANA: 4.0
+      MARIJUANAPLANT: 3.0
+      BONG: 1.0
+      HEROIN: 30.0
+      OPIUM: 5.0
+      OPIUMPOPPY: 4.0
+      OPIUMPOPPYSEEDPOD: 1.0
+  #message sent to player when they are unable to buy or sell drugs#
+  transactionError: '&cTransaction failed'
+  #Information about plugins which are compatible for converting btc#
+  #Enter a decimal point number for the conversion rate. for example if vault is set to 255.55, 1 BTC will be equal to 255.55 of Vaults currency.#
+  #If you have an economy plugin, that you would like to see be compatible, please write a post in the discussion section of this plugin at www.spigotmc.org#
+  ConvertFromBTC:
+    Vault:
+      enabled: true
+      ConversionRate: 1250.0
+      Material: FURNACE
+      DisplayName: '&eVAULT'
+      #use {CONVERSIONRATE} as a placeholder for your conversion rate.#
+      Lore:
+        - '&eRate: {CONVERSIONRATE}'
+        - '&eRight Click to convert your BTC to this currency.'
+        - '&aLeft Click to convert your currency to BTC'
+  #values to change buy/sell, there can only be 6 of these. #
+  ValuesToChangeTotal:
+    - 0.1
+    - 0.25
+    - 1.0
+    - 10
+    - 100
+    - 1000
+  #Material which represents each button to increase/decrease amount#
+  ValuesMaterial: GOLD_BLOCK
+  
+  
+
+

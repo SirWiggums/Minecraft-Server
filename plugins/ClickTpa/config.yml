@@ -1,0 +1,162 @@
+# Config for ClickTpa
+# Version v1.7.1
+# Author: jklmao
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+#                                               #
+#                ClickTpa Config                #
+#                                               #
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+#           Be aware of all warnings!           #
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+#                                               #
+#                 Place Holders                 #
+#                                               #
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+# Use '%player%' for the player who sent the request.
+# Use '%accept%' for the 'Click-to-accept' message.
+# Use '%deny%' for the 'Click-to-deny' message.
+# Use '%target%' for the player who they wanted to teleport to, and for the 'Player-sent-request' message.
+# Example: /tpa <player>, where <player> is '%target%'.
+
+Player-only-command: '&cChỉ người có thể chơi mới có thể sử dụng lệnh này!'
+
+Insufficient-permission: '&cBạn k có quền sử dụng lệnh này!'
+
+Player-deny-tpa-message: '&cYêu cầu dịch chuyển đã bị từ chối.'
+
+Target-deny-tpa-message: '&cYêu cầu dịch chuyển đã bị từ chối.'
+
+Target-teleportion-canceled: '&cDịch chuyển tức thời bị hủy bỏ...'
+
+Player-got-accepted-tpa: '&bYêu cầu dịch chuyển tức thời đã được chấp nhận.'
+
+Countdown-until-tpa: '&eDịch chuyển tức thời sau 3 giây...'
+
+Player-no-pendingtpa-message: '&cBạn không có yêu cầu đang chờ xử lý!'
+
+Target-accepted-tpa-request: '&eYêu cầu dịch chuyển tức thời được chấp nhận.'
+
+Target-is-offline: '&cNgười chơi đã đăng xuất khỏi trái đất!'
+
+No-player-found: '&cNgười chơi này chưa sinh ra!'
+
+Player-teleporting-self: '&cBạn k thể dịch chuyển đến bạn???!'
+
+Player-already-requested: '&cBạn đã yêu cầu, vui lòng đợi.'
+
+Player-teleportation-request-expire: '&cYêu cầu dịch chuyển đã hết hạn.'
+
+Target-teleportation-request-expire: '&cYêu cầu dịch chuyển đã hết hạn.'
+
+Player-currently-teleporting: '&bTeleporting...'
+
+Target-currently-teleporting: '&eTeleporting...'
+
+Player-TpToggle-Off: '&eTeleportation &6OFF'
+
+Player-TpToggle-On: '&eTeleportation &6ON'
+
+Target-Is-TpToggled: '&6%target% &ehas teleportation off'
+
+Player-Is-TpToggled: '&cYou are tptoggled!'
+
+TpToggle-While-Teleporting: '&cCannot TpToggle while teleporting!'
+
+Tpacancel-message: '&6Tpa request has been canceled.'
+
+# TPA request expires in seconds
+Request-expire-time: 120
+
+
+# Seconds until tpa
+# Please use whole numbers
+
+Seconds-until-tpa: 3
+
+# Becareful in this part!
+# This is when a player uses not enough args
+# For example, when a player does '/tpa', it will say 'Usage: /tpa <player>'
+# So please fit the correct command under the correct message!
+# P.S '/tpohere' is also '/s' (essentials-type command).
+
+Tpa-usage: '&cUse: /tpa <player>'
+
+Tpahere-usage: '&cUse: /tpahere <player>'
+
+Tpaccept-usage: '&cUse: /tpaccept <player>'
+
+Tpdeny-usage: '&cUse: /tpadeny <player>'
+
+Tpo-usage: '&cUse: /tpo <player>'
+
+Tpohere-usage: '&cUse: /tpohere <player> or /s <player>'
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+#                                               #
+#                  Please Read!                 #
+#                                               #
+# # # # # # # # # # # # # # # # # # # # # # # # #
+
+# This section is when a player gets a tpa request
+# Since the code used is broken into many parts, there will be many messages.
+# Whatever you do to the "Click-to-x" messages, will be the same in the 'Tpa-message'
+# Be careful!
+
+
+# Lets you choose if you want players to be able
+# to move before being teleported
+Allow-player-to-move: false
+
+Player-moved-before-tp: '&6yêu cầu bị hủy vì %player% di chuyển!'
+
+Player-sent-request: '&eBạn đã gửi yêu cầu đến &6%target%'
+
+Tpa-message:
+  - ''
+  - '&e%player% &6muốn đến với bạnn.'
+  - '&6Nhấn chuột zo %accept% &6để đồng ý hoặc nhấn zo %deny% &6để ĐÉO.'
+  - '&6Hồi chiêu 120s.'
+  - ''
+
+Tpahere-message:
+  - ''
+  - '&e%player% &6muốn &4bạn &6dịch chuyển tới họ.'
+  - '&6Click %accept% &6to accept or click %deny% &6to deny.'
+  - '&6The request expires in 120 seconds.'
+  - ''
+
+# This will put additional spaces for the accept/deny messages
+Center-accept-deny-msg: true
+
+Click-to-accept: '&a&l&n[Accept]&r'
+Click-to-deny: '&c&l&n[Deny]&r'
+
+Hover-message-on-accept: '&aBấm để đồng ý'
+Hover-message-on-deny: '&cBấm để k đồng ý'
+
+#
+# On-Screen Messages 
+# It pops up in the middle of the player's screen
+#
+
+Send-on-screen-message: true
+
+# When  a player accepts a tp
+On-screen-teleporting: 
+  - '&6Teleporting...'
+  - '&eĐừng di chuyễn!'
+
+# When a player has successfully tp'd. 
+On-screen-teleported: '&aTeleported!'
+
+# If a player moves while they are being tp'd
+On-screen-canceled-tp: '&cCanceled TP!'
+ 
+#~~~~~~~~~~~~~~~~~~#
+# More Coming Soon!#
+#~~~~~~~~~~~~~~~~~~#

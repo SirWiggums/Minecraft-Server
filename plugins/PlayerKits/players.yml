@@ -1,0 +1,97 @@
+Players:
+  4a8b450f-a94d-3151-850e-09c9e18e89ca:
+    name: SirWiggums
+    iron:
+      cooldown: 1677566547661
+      buyed: false
+      one_time: false
+    CLaim:
+      cooldown: 1677662758134
+      buyed: false
+      one_time: false
+    food:
+      cooldown: 1678025385652
+      buyed: false
+      one_time: false
+    TEST:
+      cooldown: 1677976202618
+      buyed: false
+      one_time: false
+  0dfc1eef-d72b-3e2d-b645-698115e817c1:
+    name: AnXin
+  13969117-55de-39a1-858b-8e516c9a6031:
+    name: SirWiggumsMinh
+    food:
+      cooldown: 1677567629423
+      buyed: false
+      one_time: false
+  32b919af-9525-3804-88c1-cffdf07f68b8:
+    name: bangcbvn
+    iron:
+      cooldown: 1677754515686
+      buyed: false
+      one_time: false
+    food:
+      cooldown: 1677695483068
+      buyed: false
+      one_time: false
+  0cc52b72-12f4-3a7d-80c7-5cd865d8692d:
+    name: daxaymaymu
+    iron:
+      cooldown: 1677575380454
+      buyed: false
+      one_time: false
+    food:
+      cooldown: 1677605939668
+      buyed: false
+      one_time: false
+    CLaim:
+      cooldown: 1677575420425
+      buyed: false
+      one_time: false
+  6eda6e7f-4db0-3ff0-8833-153a3b124303:
+    name: ChowChow
+    iron:
+      cooldown: 1677599160832
+      buyed: false
+      one_time: false
+    TEST:
+      cooldown: 1677773461271
+      buyed: false
+      one_time: false
+  63a5af20-ced9-32d4-8b93-8bc25f9bac80:
+    name: wylong
+    CLaim:
+      cooldown: 1677940341530
+      buyed: false
+      one_time: false
+    food:
+      cooldown: 1677930364957
+      buyed: false
+      one_time: false
+    iron:
+      cooldown: 1677942846493
+      buyed: false
+      one_time: false
+    TEST:
+      cooldown: 1677862383576
+      buyed: false
+      one_time: false
+  ed7477be-d923-3064-a811-aad08e6c018f:
+    name: __Aqua_
+    iron:
+      cooldown: 1677605880791
+      buyed: false
+      one_time: false
+    food:
+      cooldown: 1677605901029
+      buyed: false
+      one_time: false
+    CLaim:
+      cooldown: 1677605907348
+      buyed: false
+      one_time: false
+    TEST:
+      cooldown: 1677926805986
+      buyed: false
+      one_time: false

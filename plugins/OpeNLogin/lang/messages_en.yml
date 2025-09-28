@@ -1,0 +1,127 @@
+#    ___                __  __
+#   /___\_ __   ___  /\ \ \/ /  ___   __ _(_)_ __
+#  //  // '_ \ / _ \/  \/ / /  / _ \ / _` | | '_ \
+# / \_//| |_) |  __/ /\  / /__| (_) | (_| | | | | |
+# \___/ | .__/ \___\_\ \/\____/\___/ \__, |_|_| |_|
+#       |_|                          |___/
+
+# Official Website: https://www.nickuc.com
+# Discord: https://www.nickuc.com/discord
+
+Messages:
+  Title:
+    # Message sent before login
+    before-login:
+      title: "&a&lXIN CHÀO hêlô!"
+      subtitle: "&7Sử dụng: /login <mk của bạn>"
+      delays:
+        start: 0
+        duration: 9999
+        end: 6
+    # Message sent before registration
+    before-register:
+      title: "&a&lXIN CHÀO hêlô!"
+      subtitle: "&7Sử dụng: /register <mk của bạn> <mk của bạn> để đăng nhập"
+      delays:
+        start: 0
+        duration: 9999
+        end: 6
+    # Message sent after login
+    after-login:
+      title: "&aĐăng nhập thành công!"
+      subtitle:
+      delays:
+        start: 0
+        duration: 60
+        end: 6
+    # Message sent after register
+    after-register:
+      title: "Đăng ký thành công"
+      subtitle: "&aĐăng ký thành công!"
+      delays:
+        start: 0
+        duration: 60
+        end: 6
+
+  delay-kick:
+    # Message sent when a user takes a long time to register
+    register-kick: "&cBạn đã mất quá nhiều thời gian để đăng ký."
+
+    # Message sent when a user takes a long time to log in
+    login-kick: "&cBạn đã mất quá nhiều thời gian để đăng nhập."
+
+  successful-operations:
+    # Message when a user exchanges their password
+    password-changed: "&aMật khẩu của bạn đã được thay đổi thành công."
+
+    # Message sent when a user successfully logs
+    successful-login: "&aBạn đã đăng nhập thành công."
+
+    # Message sent when a user successfully registers
+    successful-register: "&aBạn đã đăng ký thành công."
+
+    # Message sent when a player successfully disregisters
+    unregister-kick: "&cBạn đã hủy đăng ký thành công."
+
+  kick-messages:
+    # Message when a player tries to log on to the server with a small difference in the nickname
+    nick-already-registered: "&cYBạn không thể nhập bằng biệt hiệu {0}&rn&r&cTên người dùng này đã được đăng ký là {1}&rn&rn&r&cTo enter, bạn phải sử dụng biệt hiệu của mình mà không có chữ hoa / chữ thường"
+
+    # Message sent when a user misses many times
+    failed-many-times: "&cBạn đã nhập sai mật khẩu."
+
+    # Message sent when password entered is incorrect
+    incorrect-password: "&cMật khẩu không chính xác. Vui lòng thử lại."
+
+    # Message sent when a player enters an invalid nickname.
+    invalid-nickname: "&cRất tiếc, nhưng bạn đang sử dụng biệt hiệu không hợp lệ."
+
+  error-messages:
+    # Message sent when you are already logged in.
+    already-login: "&cBạn đã đăng nhập."
+
+    # Message sent when a nickname has already been registered.
+    already-registered: "&cBiệt danh này đã được đăng ký."
+
+    # Message sent when a nickname has not yet been registered.
+    not-registered: "&cBiệt danh này vẫn chưa được đăng ký."
+
+    # Message sent when the entered password is not equal to the second
+    passwords-dont-match: "&cMật khẩu không giống nhau."
+
+    # Message sent when a player tries to change password by entering the same password as the current
+    password-same-as-old: "&cMật khẩu đã nhập giống như hiện tại."
+
+    # Message sent when the password entered is too large
+    password-too-large: "&cMật khẩu đã nhập quá lớn."
+
+    # Message sent when the password entered is too small
+    password-too-small: "&cMật khẩu đã nhập quá nhỏ."
+
+    # Message when a player does not possess the required permission
+    insufficient-permissions: "&cBạn không có quyền chạy lệnh này."
+
+    # Message to kick a player now online
+    already-online: "&cThis player is already online."
+
+    # Message to show that the command cannot be executed via console
+    player-command-usage: "&cThis command has been disabled via console."
+
+    # Message shown when the plugin is reloaded.
+    plugin-reload-message: "&eThe plugin has been successfully reloaded."
+
+    # Message sent when a database operation has not been successfully performed
+    database-error: "&cSorry, we were unable to complete this operation. Please try again. [SQL FAIL]"
+
+  other-messages:
+    # Mensagem enviada para o uso do comando /logar
+    message-login: "&eSử dụng lệnh /login <password>"
+
+    # Mensagem enviada para o uso do comando /register
+    message-register: "&eSử dụng lệnh /register <password> <password>"
+
+    # Mensagem enviada para o uso do comando /mudarsenha
+    message-changepassword: "&eSử dụng lệnh /changepassword <current password> <new password>"
+
+    # Message sent to use the /unregister command
+    message-unregister: "&eSử dụng lệnh /unregister <current password>"
